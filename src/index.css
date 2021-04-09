@@ -133,6 +133,14 @@ nav img {
 @media screen and (min-width: 1440px) {
     body {
         overflow-y: hidden;
+        background: linear-gradient(
+            135deg,
+            hsl(0, 0%, 100%),
+            hsl(0, 100%, 98%)
+        );
+        background-image: url(./assets/bg-pattern-desktop.svg),
+            linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+        background-repeat: no-repeat;
     }
     nav {
         padding: 4.3rem 11rem;
@@ -191,6 +199,9 @@ nav img {
     }
 }
 @media screen and (min-width: 1920px) {
+    body {
+        background-size: 1020px 100vh;
+    }
     main {
         width: 90%;
         margin: 0 auto;
