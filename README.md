@@ -1,10 +1,12 @@
 # React FEM Base Apparel Coming Soon Page
 
-Check it out [here!]()
+Check it out [here!](https://ianbrdeguzman.github.io/react-fem-base-apparel/)
 
 ## Created using:
 
 -   Reactjs
+    -   useState
+    -   useEffect
 
 ![Design preview for the Base Apparel coming soon page coding challenge](./src/assets/desktop-preview.jpg)
 
